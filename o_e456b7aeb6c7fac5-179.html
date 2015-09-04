@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 179</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:13px;font-family:Times;color:#000000;}
+	.ft01{font-size:22px;font-family:Times;color:#000000;}
+	.ft02{font-size:22px;font-family:Times;color:#000000;}
+	.ft03{font-size:16px;font-family:Times;color:#000000;}
+	.ft04{font-size:16px;line-height:20px;font-family:Times;color:#000000;}
+	.ft05{font-size:16px;line-height:29px;font-family:Times;color:#000000;}
+	.ft06{font-size:16px;line-height:21px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page179-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="o_e456b7aeb6c7fac5179.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:85px;white-space:nowrap" class="ft00"><i>Sicher Mailen – Wie&#160;geht&#160;das? Version 5.1</i></p>
+<p style="position:absolute;top:85px;left:376px;white-space:nowrap" class="ft00"><i>Autor:&#160;Hermann Hueck</i></p>
+<p style="position:absolute;top:85px;left:632px;white-space:nowrap" class="ft00"><i>Letzte&#160;Änderung:&#160;04.09.2015</i></p>
+<p style="position:absolute;top:150px;left:85px;white-space:nowrap" class="ft01">14 &#160;<b>Verschlüsselte&#160;Übertragungskanäle&#160;–&#160;Wie&#160;sicher&#160;sind&#160;sie&#160;</b></p>
+<p style="position:absolute;top:174px;left:118px;white-space:nowrap" class="ft02"><b>wirklich?</b></p>
+<p style="position:absolute;top:211px;left:85px;white-space:nowrap" class="ft04">Dieses&#160;Kapitel&#160;liefert&#160;einen technisch etwas&#160;genaueren Blick auf Inhalte, die&#160;in Kapitel&#160;<a href="o_e456b7aeb6c7fac5-40.html">3.2&#160;nur&#160;<br/></a>angerissen wurden.<br/>Verschlüsselte&#160;Übertragungskanäle&#160;(oder&#160;Transport-Kanäle) bieten nur relative&#160;Sicherheit.<br/>Werden die&#160;Daten, die&#160;auf einem&#160;verschlüsselten&#160;Transport-Kanal&#160;übertragen werden, mitgelesen,&#160;<br/>so bekommt&#160;der Mitlesende&#160;nur einen unverständlichen Datensalat&#160;zu sehen.&#160;Wäre&#160;er im&#160;Besitz&#160;des&#160;<br/>Schlüssels, mit&#160;dem&#160;die&#160;Übertragung verschlüsselt&#160;wurde, könnte&#160;er den Datensalat&#160;entschlüsseln&#160;<br/>und die&#160;übertragenen Inhalte&#160;im&#160;Klartext&#160;mitlesen.<br/>Sowohl&#160;Geheimdienste&#160;als&#160;auch Hacker versuchen, die&#160;verschlüsselten Kanäle&#160;anzugreifen, um&#160;den&#160;<br/>verschlüsselten Datenverkehr mitlesen zu können. Dies&#160;geht&#160;umso leichter, je&#160;schlechter die&#160;<br/>Verschlüsselung eines&#160;Transport-Kanals&#160;implementiert&#160;ist. Je&#160;besser die&#160;Verschlüsselung des&#160;Kanals<br/>„gemacht“&#160;ist, umso schwieriger ist&#160;es, sie&#160;zu aufzubrechen. Bei&#160;der Mail-Übertragung ist&#160;es&#160;Sache&#160;<br/>der Provider, die&#160;Kanäle&#160;optimal&#160;zu verschlüsseln und damit&#160;die&#160;Hürden für die&#160;Kompromittierung&#160;<br/>des&#160;Kanals&#160;möglichst&#160;hoch zu setzen.<br/>Ein mit&#160;SSL/TLS&#160;verschlüsselter Kanal&#160;wird bereits&#160;beim&#160;Verbindungsaufbau durch eine&#160;sog.&#160;<br/>MITM-Attacke&#160;(Man in the&#160;Middle&#160;Attacke) angegriffen oder „gekapert“. Dabei&#160;klinkt&#160;sich der&#160;<br/>Angreifer schon beim&#160;Verbindungsaufbau in die&#160;TLS-Verbindung ein und kommuniziert&#160;dann&#160;<br/>verschlüsselt&#160;sowohl&#160;mit&#160;dem&#160;Client&#160;als&#160;auch mit&#160;dem&#160;Server. Der Client&#160;„denkt“, er kommuniziere&#160;<br/>mit&#160;dem&#160;Server und kommuniziert&#160;tatsächlich mit&#160;dem&#160;MITM&#160;(Man in the&#160;Middle). Der Server&#160;<br/>„denkt“&#160;auch, er kommuniziere&#160;mit&#160;dem&#160;Client&#160;und kommuniziert&#160;tatsächlich mit&#160;dem&#160;MITM. Der&#160;<br/>MITM&#160;leitet&#160;die&#160;vom&#160;Client&#160;empfangenen Requests&#160;an den Server weiter und ebenso die&#160;vom&#160;<br/>Server empfangenen Responses&#160;zurück an den Client. Dabei&#160;kann der MITM&#160;die&#160;Requests&#160;und&#160;<br/>Responses&#160;mitlesen und ggf. auch ändern/manipulieren. Zum&#160;Kapern einer&#160;TLS-Verbindung&#160;<br/>benötigt&#160;der&#160;Angreifer ein gefälschtes&#160;Zertifikat, das&#160;vom&#160;Client&#160;und von Server als&#160;echt&#160;anerkannt&#160;<br/>wird. So kann er sich gegenüber dem&#160;Client&#160;als&#160;Server ausgeben und gegenüber dem&#160;Server als&#160;<br/>Client. (nur erforderlich, wenn auch der Server eine&#160;Zertifikatsprüfung durchführt;&#160;dies&#160;ist&#160;jedoch&#160;<br/>eher die&#160;Ausnahme).<br/>Für „gut&#160;gemachte“&#160;Verschlüsselung gibt&#160;es&#160;einige&#160;Qualitäts-Kriterien, an denen man auch die&#160;Mail-<br/>Provider messen kann (siehe&#160;Ka<a href="o_e456b7aeb6c7fac5-186.html">p.&#160;14.8). Be</a>i&#160;Einhaltung dieser Qualitätskriterien ist&#160;das&#160;Kapern von<br/>TLS-Verbindungen erheblich schwieriger.</p>
+<p style="position:absolute;top:868px;left:112px;white-space:nowrap" class="ft03"></p>
+<p style="position:absolute;top:865px;left:139px;white-space:nowrap" class="ft04">Unterstützung aller&#160;TLS-Versionen, auch der neuesten&#160;Version 1.2. SSL&#160;darf nicht&#160;mehr&#160;<br/>unterstützt&#160;werden (siehe&#160;Ka<a href="o_e456b7aeb6c7fac5-180.html">p.&#160;14.1).&#160;</a>Wenn SSL&#160;auf dem&#160;Mail-Server abgeschaltet&#160;wurde,&#160;<br/>dann ist&#160;dieser auch nicht&#160;mehr durch den Poodle-Angriff (siehe&#160;Ka<a href="o_e456b7aeb6c7fac5-181.html">p.&#160;14.3) ve</a>rwundbar.</p>
+<p style="position:absolute;top:940px;left:112px;white-space:nowrap" class="ft03"></p>
+<p style="position:absolute;top:937px;left:139px;white-space:nowrap" class="ft03">Unterstützung von PFS&#160;(siehe&#160;Ka<a href="o_e456b7aeb6c7fac5-183.html">p.&#160;14.4)</a></p>
+<p style="position:absolute;top:971px;left:112px;white-space:nowrap" class="ft03"></p>
+<p style="position:absolute;top:967px;left:139px;white-space:nowrap" class="ft03">Unterstützung von HSTS&#160;für die&#160;Webmail-Schnittstelle&#160;(siehe&#160;Ka<a href="o_e456b7aeb6c7fac5-183.html">p.&#160;14.5)</a></p>
+<p style="position:absolute;top:1001px;left:112px;white-space:nowrap" class="ft03"></p>
+<p style="position:absolute;top:998px;left:139px;white-space:nowrap" class="ft03">Unterstützung von DNSSEC und DANE&#160;(siehe&#160;Ka<a href="o_e456b7aeb6c7fac5-184.html">p.&#160;14.6)</a></p>
+<p style="position:absolute;top:1032px;left:112px;white-space:nowrap" class="ft03"></p>
+<p style="position:absolute;top:1028px;left:139px;white-space:nowrap" class="ft03">Nicht&#160;verwundbar durch die&#160;Heartbleed-Attacke</p>
+<p style="position:absolute;top:1059px;left:85px;white-space:nowrap" class="ft04">In den nachfolgenden Unterkapiteln werde&#160;ich die&#160;Funktionsweise&#160;von SSL/TLS&#160;kurz&#160;beschreiben.&#160;<br/>Ich werde&#160;zeigen, was&#160;eine&#160;Man-in-the-Middle-Attacke&#160;ist. Danach skizziere&#160;ich die&#160;genannten&#160;<br/>Qualitätsmerkmale&#160;für SSL/TLS-Verbindungen, um&#160;ein grobes&#160;Verständnis&#160;zu ermöglichen.&#160;</p>
+<p style="position:absolute;top:1157px;left:381px;white-space:nowrap" class="ft03">Seite&#160;165&#160;von&#160;191</p>
+</div>
+</body>
+</html>
