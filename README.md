@@ -8,4 +8,5 @@ Nach den Überlegungen zur Auswahl eines sicheren Email-Providers, den Tipps zur
 Dieses Projekt ist zur Archivierung früherer Versionen des Dokuments gedacht. Die aktuellen Versionen des Dokuments (im HTML- und PDF-Format) sind hier zu finden:
 
 HTML:   https://hermannhueck.github.io/SicherMailenWieGehtDas/
+
 PDF:    https://hermannhueck.github.io/SicherMailenWieGehtDas/SicherMailenWieGehtDas.pdf
